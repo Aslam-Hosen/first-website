@@ -227,3 +227,53 @@ h1.resume-heading {
     text-align: center;
     margin-top: 50px;
 }
+
+/* footer area style */
+
+footer.contact {
+    margin-top: 100px;
+    background: #fff8f3;
+    padding: 100px 150px;
+    display: flex;
+    gap: 50px;
+}
+
+.contact-left {
+    width: 50%;
+}
+
+.contact-left h2 {
+    font-size: 30px;
+}
+
+.contact-left p {
+    font-size: 14px;
+    color: #757575;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-links a {
+    margin-right: 20px;
+}
+
+.contact-right h2 {
+    font-size: 30px;
+}
+
+form.contact-form input[type="text"], input[type="email"], textarea {
+    display: block;
+    border: navajowhite;
+    padding: 15px 15px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+form.contact-form {
+    margin-top: 30px;
+}
+
+form.contact-form input[type="submit"] {
+    margin-top: 20px;
+}
+

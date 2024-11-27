@@ -100,6 +100,10 @@ h1.nav-head {
 
 /* About related style */
 
+main{
+    margin: 0px 150px
+}
+
 section.about {
     background-color: #fff8f3;
     margin: 0px 150px;
@@ -134,4 +138,49 @@ section.about p {
 
 .information div h2 {
     font-size: 15px;
+}
+
+/* what i do related style */
+
+section.what-i-do h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section.what-i-do > p {
+    font-size: 14px;
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    color: #757575;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.skills {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.skill img {
+    width: 30px;
+    margin-bottom: 20px;
+}
+
+.skill h3 {
+    font-size: 16px;
+    margin-bottom: 21px;
+}
+
+.skill p {
+    font-size: 13px;
+    line-height: 22px;
+}
+
+.skill {
+    padding: 20px 45px;
+    box-shadow: 4px 3px 15px 10px #f4f4f4;
+    margin: 12px;
+    border-radius: 5px;
 }

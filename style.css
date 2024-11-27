@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
 }
 
-.primary-btn{
+.primary-btn {
     background-color: #fd6e0a;
     border: none;
     padding: 10px 20px;
@@ -14,13 +14,13 @@
     font-weight: 500;
 }
 
-.primary-color{
+.primary-color {
     color: #fd6e0a;
 }
 
 /* Nav related style */
 
-header{
+header {
     background-color: #fff8f3;
     background-image: url('images/header_bg.png'), url('images/developer.png');
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ h1.nav-head {
 
 /* About related style */
 
-main{
+main {
     margin: 0px 150px
 }
 
@@ -148,7 +148,7 @@ section.what-i-do h2 {
     margin-bottom: 20px;
 }
 
-section.what-i-do > p {
+section.what-i-do>p {
     font-size: 14px;
     text-align: center;
     width: 700px;
@@ -160,7 +160,7 @@ section.what-i-do > p {
 
 .skills {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .skill img {
@@ -183,4 +183,47 @@ section.what-i-do > p {
     box-shadow: 4px 3px 15px 10px #f4f4f4;
     margin: 12px;
     border-radius: 5px;
+}
+
+/* resume section style */
+
+h1.resume-heading {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.resume-details h2 {
+    color: #474747;
+}
+
+.resume-content h3 {
+    color: #474747;
+    margin-top: 25px;
+}
+
+.resume-content h4 {
+    color: #757575;
+    margin-top: 10px;
+}
+
+.resume-content p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #757575;
+}
+
+.resume-container hr {
+    margin-top: 25px;
+}
+
+.resume-button {
+    text-align: center;
+    margin-top: 50px;
 }

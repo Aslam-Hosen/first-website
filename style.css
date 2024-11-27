@@ -11,7 +11,7 @@
     border-radius: 5px;
     color: white;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .primary-color{
@@ -20,15 +20,20 @@
 
 /* Nav related style */
 
-
-header {
-    margin: 70px 150px;
+header{
+    background-color: #fff8f3;
+    background-image: url('images/header_bg.png'), url('images/developer.png');
+    background-repeat: no-repeat;
+    background-size: 575px, 75px;
+    background-position: bottom right, left;
+    margin-bottom: 100px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 70px 150px;
 }
 
 ul.nav-list {
@@ -50,4 +55,83 @@ ul.nav-list li a {
 
 h1.nav-head {
     font-size: 35px;
+}
+
+/* Banner related style */
+
+.banner {
+    display: flex;
+    align-items: center;
+    padding: 0px 40px 0px 150px;
+    justify-content: space-between;
+}
+
+.banner-img img {
+    width: 400px;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner-content h4 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #414141;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+    margin: 15px 0px;
+}
+
+.banner-content p {
+    font-size: 14px;
+    width: 475px;
+    color: #5c5c5c;
+    margin-bottom: 30px;
+}
+
+.banner-content button {
+    margin-right: 20px;
+}
+
+/* Starting of main section */
+
+/* About related style */
+
+section.about {
+    background-color: #fff8f3;
+    margin: 0px 150px;
+    padding: 100px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+section.about h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+section.about p {
+    font-size: 14px;
+    color: #757575;
+    width: 625px;
+    margin: auto;
+}
+
+.information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information div h4 {
+    font-size: 14px;
+    color: #757575;
+    margin-top: 45px;
+}
+
+.information div h2 {
+    font-size: 15px;
 }

@@ -278,16 +278,13 @@ form.contact-form input[type="submit"] {
     margin-top: 20px;
 }
 
-.hide{
-    display: none;
-}
 
 /* Responsive style */
 
 /* Small device */
 
 @media screen and (max-width:576px) {
-    nav, .nav-list, .banner{
+    nav, .nav-list, .banner, .resume-container, .skills, .information{
         flex-direction: column;
     }
 
@@ -379,6 +376,7 @@ form.contact-form input[type="submit"] {
     
     .contact-right h2 {
         font-size: 20px;
+        padding-top: 50px;
     }
     
     form.contact-form input[type="text"], input[type="email"], textarea {
@@ -387,12 +385,52 @@ form.contact-form input[type="submit"] {
         margin-top: 10px;
     }
 
+    main{
+        margin: 0;
+    }
 
-}
+    h1.resume-heading{
+        font-size: 20px;
+    }
 
+    .resume-container {
+        padding: 0px 25px;
+    }
 
-/* Medium device */
-
-@media screen and (min-width:577px) and (max-width:768px) {
+    section.what-i-do h2 {
+        font-size: 25px;
+    }
     
+    section.what-i-do p {
+        font-size: 11px;
+        width: 265px;
+    }
+
+    .skill{
+        padding: 20px 20px;
+        text-align: center;
+    }
+
+    section.about{
+        margin: 0;
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+
+    section.about p{
+        width: 100px;
+    }
+
+    section.about h1 {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+    section.about p {
+        width: 260px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+
 }
